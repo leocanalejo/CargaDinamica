@@ -1,0 +1,1 @@
+function dl(a,b){if(document.getElementById(a))b();else{var d=document.getElementsByTagName("head")[0],e=document.createElement("script");e.async=!1,e.src=a,e.id=a,e.onload=e.onreadystatechange=function(){b()},d.insertBefore(e,d.firstChild)}}
